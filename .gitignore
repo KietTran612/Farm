@@ -1,0 +1,28 @@
+# Unity generated
+_Project/Library/
+_Project/Temp/
+_Project/Obj/
+_Project/Build/
+_Project/Builds/
+_Project/Logs/
+_Project/UserSettings/
+
+# Unity cache
+_Project/Assets/.screenshots/
+_Project/.screenshots/
+_Project/Assets/.mcp_auth_token
+
+# VS / Rider
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kiro local
+.claude/
