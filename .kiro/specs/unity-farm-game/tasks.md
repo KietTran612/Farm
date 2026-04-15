@@ -7,7 +7,7 @@ Work through phases in order. Do NOT start Phase N+1 until Phase N is verified a
 
 ## Phase 0 — Layout Skeleton
 
-- [ ] 0.1 Create Canvas with ScaleWithScreenSize at 1080×1920 portrait
+- [x] 0.1 Create Canvas with ScaleWithScreenSize at 1080×1920 portrait
 - [x] 0.2 Add FarmWorld background (full-screen, z=0)
 - [x] 0.3 Build TopHUD (width 1032, height 92, Y 44, radius 24) with placeholder content
 - [x] 0.4 Build SideButtons_Right stack (72×72 each, right margin 24, start Y 250, gap 16) with 4 placeholder buttons
@@ -23,21 +23,21 @@ Work through phases in order. Do NOT start Phase N+1 until Phase N is verified a
 
 ## Phase 1 — Tile States + Bottom Sheet
 
-- [ ] 1.1 Implement TileState enum: WildGrass, NormalSoil, TilledSoil, PlantedGrowing, PlantedReady, PlantedDead
-- [ ] 1.2 Implement TileData class (state, cropType, growthPhase, growthProgress, isWatered, hasWeeds, hasPests, isNearReady)
-- [ ] 1.3 Implement TileManager: holds grid of TileData, exposes GetTile(coord) and SetTileState(coord, state)
-- [ ] 1.4 Add distinct visual art/placeholder for each of the 6 tile states
-- [ ] 1.5 Implement tile tap detection (single finger, no drag) → open BottomSheet
-- [ ] 1.6 Implement BottomSheetController: reads selected tile's TileData, populates content by state
-- [ ] 1.7 Bottom sheet — WildGrass content: title "Cỏ hoang", action "Cuốc đất"
-- [ ] 1.8 Bottom sheet — NormalSoil content: title "Đất thường", action "Cuốc đất"
-- [ ] 1.9 Bottom sheet — TilledSoil content: title "Đất đã cuốc", actions "Gieo hạt" + "Mở thanh hạt giống"
-- [ ] 1.10 Bottom sheet — PlantedGrowing content: crop name, "Đang phát triển", time remaining, conditional care actions
-- [ ] 1.11 Bottom sheet — PlantedReady content: crop name, "Sẵn sàng thu hoạch", action "Thu hoạch"
-- [ ] 1.12 Bottom sheet — PlantedDead content: crop name, "Đã chết", action "Dọn xác cây"
-- [ ] 1.13 Implement 2-level sheet: collapse (260h) and expand (540h) with grab handle
-- [ ] 1.14 Verify: bottom sheet does NOT open during an active drag
-- [ ] 1.15 Verify: conditional actions in PlantedGrowing sheet are hidden when condition is false
+- [x] 1.1 Implement TileState enum: WildGrass, NormalSoil, TilledSoil, PlantedGrowing, PlantedReady, PlantedDead
+- [x] 1.2 Implement TileData class (state, cropType, growthPhase, growthProgress, isWatered, hasWeeds, hasPests, isNearReady)
+- [x] 1.3 Implement TileManager: holds grid of TileData, exposes GetTile(coord) and SetTileState(coord, state)
+- [x] 1.4 Add distinct visual art/placeholder for each of the 6 tile states
+- [x] 1.5 Implement tile tap detection (single finger, no drag) → open BottomSheet
+- [x] 1.6 Implement BottomSheetController: reads selected tile's TileData, populates content by state
+- [x] 1.7 Bottom sheet — WildGrass content: title "Cỏ hoang", action "Cuốc đất"
+- [x] 1.8 Bottom sheet — NormalSoil content: title "Đất thường", action "Cuốc đất"
+- [x] 1.9 Bottom sheet — TilledSoil content: title "Đất đã cuốc", actions "Gieo hạt" + "Mở thanh hạt giống"
+- [x] 1.10 Bottom sheet — PlantedGrowing content: crop name, "Đang phát triển", time remaining, conditional care actions
+- [x] 1.11 Bottom sheet — PlantedReady content: crop name, "Sẵn sàng thu hoạch", action "Thu hoạch"
+- [x] 1.12 Bottom sheet — PlantedDead content: crop name, "Đã chết", action "Dọn xác cây"
+- [x] 1.13 Implement 2-level sheet: collapse (260h) and expand (540h) with grab handle
+- [x] 1.14 Verify: bottom sheet does NOT open during an active drag
+- [x] 1.15 Verify: conditional actions in PlantedGrowing sheet are hidden when condition is false
 
 ---
 

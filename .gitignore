@@ -26,3 +26,13 @@ Thumbs.db
 
 # Kiro local
 .claude/
+.mcp.json
+.kiro/settings/mcp.json
+_Project/Assets/StreamingAssets/realvirtual-MCP
+_Project/ProjectSettings/EditorBuildSettings.asset
+_Project/UserSettings/Search.settings
+_Project/UserSettings/Layouts/default-6000.dwlt
+_Project/Assets/StreamingAssets/realvirtual-MCP
+_Project/ProjectSettings/EditorBuildSettings.asset
+_Project/UserSettings/Search.settings
+_Project/UserSettings/Layouts/default-6000.dwlt

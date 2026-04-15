@@ -117,7 +117,7 @@ public static class FarmSceneSetup
         scaler.uiScaleMode            = CanvasScaler.ScaleMode.ScaleWithScreenSize;
         scaler.referenceResolution    = new Vector2(1080, 1920);
         scaler.screenMatchMode        = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight;
-        scaler.matchWidthOrHeight     = 0.5f;
+        scaler.matchWidthOrHeight     = 1.0f; // Match Height — portrait game, height is the fixed axis
 
         go.AddComponent<GraphicRaycaster>();
         return go;
